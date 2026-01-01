@@ -107,6 +107,10 @@ struct CharacterListView<ViewModel>: View where ViewModel: CharacterListViewMode
                 }
             }
         }
+        .navigationDestination(for: Character.self) { character in
+            CharacterDetailView(CharacterDetailViewModel(characterId: character.id))
+                .navigationTitle(character.name)
+        }
     }
 }
 

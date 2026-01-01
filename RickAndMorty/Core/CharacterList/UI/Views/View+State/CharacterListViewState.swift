@@ -7,7 +7,6 @@
 
 import SwiftUI
 
-// MARK: - Loading
 struct CharacterListLoadingView: View {
     var body: some View {
         ScrollView {
@@ -26,7 +25,6 @@ struct CharacterListLoadingView: View {
     }
 }
 
-// MARK: - Empty
 struct CharacterListEmptyView: View {
     var body: some View {
         VStack(spacing: 16) {
@@ -44,7 +42,6 @@ struct CharacterListEmptyView: View {
     }
 }
 
-// MARK: - Failure
 struct CharacterListFailureView: View {
     let errorMessage: String
     let retryAction: () -> Void

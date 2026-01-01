@@ -1,5 +1,5 @@
 //
-//  CharacterRepositoryProtocol.swift
+//  CharacterRepository.swift
 //  RickAndMorty
 //
 //  Created by Juan Bernier on 1/01/26.

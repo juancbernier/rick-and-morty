@@ -1,5 +1,5 @@
 //
-//  CharacterListViewModelProtocol.swift
+//  CharacterListViewModel.swift
 //  RickAndMorty
 //
 //  Created by Juan Bernier on 1/01/26.

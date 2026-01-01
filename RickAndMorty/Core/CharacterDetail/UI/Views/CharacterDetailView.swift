@@ -1,6 +1,6 @@
 //
 //  CharacterDetailView.swift
-//  TestRickAndMorty
+//  RickAndMorty
 //
 //  Created by Juan Bernier on 1/01/26.
 //
@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct CharacterDetailView<ViewModel>: View where ViewModel: CharacterDetailViewModelProtocol {
-
+    
     @StateObject
     private var viewModel: ViewModel
     

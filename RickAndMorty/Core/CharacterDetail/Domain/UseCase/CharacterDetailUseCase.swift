@@ -1,10 +1,9 @@
 //
-//  CharacterDetailUseCaseProtocol.swift
+//  CharacterDetailUseCase.swift
 //  RickAndMorty
 //
 //  Created by Juan Bernier on 1/01/26.
 //
-
 
 import Foundation
 
