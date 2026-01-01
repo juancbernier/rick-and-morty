@@ -66,7 +66,6 @@ final class CharacterListViewModel: CharacterListViewModelProtocol {
     
     func loadMoreIfNeeded(currentItem: Character, allCharacters: [Character]) {
         guard hasMorePages, !isLoadingMore else { return }
-        
         let thresholdIndex = allCharacters.index(allCharacters.endIndex, offsetBy: -5)
         if let itemIndex = allCharacters.firstIndex(where: { $0.id == currentItem.id }),
            itemIndex >= thresholdIndex {

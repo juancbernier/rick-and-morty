@@ -133,6 +133,7 @@
 					};
 					F5F3E6FB2F0711F800E35F2C = {
 						CreatedOnToolsVersion = 16.2;
+						LastSwiftMigration = 1620;
 						TestTargetID = F5F3E6EB2F0711F700E35F2C;
 					};
 				};
@@ -381,6 +382,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = Y73B3AKDX7;
@@ -390,6 +392,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.juanbernier.RickAndMortyTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RickAndMorty.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/RickAndMorty";
@@ -400,6 +403,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = Y73B3AKDX7;
